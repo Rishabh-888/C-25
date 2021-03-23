@@ -41,6 +41,10 @@ function setup(){
 function draw(){
     background(backgroundImg);
     Engine.update(engine);
+    fill("Orange");
+    strokeWeight(4);
+    textSize(36);
+    text("Rishabh", 170, 130);
     console.log(box2.body.position.x);
     console.log(box2.body.position.y);
     console.log(box2.body.angle);
